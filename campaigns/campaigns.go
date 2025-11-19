@@ -21,8 +21,8 @@ type Campaign struct {
 	Name             string `gorm:"type:varchar(255);not null"`
 	CRMID            string `gorm:"type:varchar(100)"`
 	Status           bool   `gorm:"not null"`
-	AtnStart         string `gorm:"type:varchar(10)"`
-	AtnEnd           string `gorm:"type:varchar(10)"`
+	AtnStart         string `gorm:"type:varchar(20)"`
+	AtnEnd           string `gorm:"type:varchar(20)"`
 	AtnDays          string `gorm:"type:varchar(50)"`
 	Notify           string `gorm:"type:varchar(50)"`
 	Quality          bool
